@@ -28,7 +28,7 @@ export class Modal extends Component {
                       <h5 className='text-muted'>price: N {price}</h5>
                       <div className='row'>
                         <div className='col-md-6'>
-                          <Link to='/'>
+                          <Link to='/shop'>
                             <button
                               className='btn btn-outline-primary'
                               onClick={() => closeModal()}

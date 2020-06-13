@@ -8,6 +8,11 @@ export class ProductDetails extends Component {
   // };
 
   // getItem(id);
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <ArtConsumer>
@@ -29,12 +34,12 @@ export class ProductDetails extends Component {
                     <div className='col-12'>
                       <ol className='breadcrumb mb-0 font-size-xs'>
                         <li className='breadcrumb-item'>
-                          <Link className='text-dark' href='/'>
+                          <Link className='text-dark' to='/'>
                             Home
                           </Link>
                         </li>
                         <li className='breadcrumb-item'>
-                          <Link className='text-dark' href='/shop'>
+                          <Link className='text-dark' to='/shop'>
                             Shop
                           </Link>
                         </li>

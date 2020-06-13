@@ -41,7 +41,6 @@ class ArtProvider extends Component {
     this.setState(() => {
       return { detailProduct: product };
     });
-    console.log(this.state);
   };
 
   addToCart = (id) => {

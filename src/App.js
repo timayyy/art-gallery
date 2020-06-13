@@ -42,7 +42,7 @@ const App = () => {
             />
             <Route
               exact
-              path='/product'
+              path='/product/id'
               render={(props) => (
                 <Fragment>
                   <ProductDetails />

@@ -25,7 +25,7 @@ const SingleProduct = ({
                 className=' product p-3'
                 onClick={() => value.handleDetail(id)}
               >
-                <Link to='/product'>
+                <Link to='/product/id'>
                   <img
                     src={img}
                     alt=''
